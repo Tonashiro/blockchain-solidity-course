@@ -1,5 +1,3 @@
-# Ethers Simple Storage
-
 # Getting Started
 
 ## Requirements
@@ -24,7 +22,7 @@
 Clone this repo
 
 ```
-git clone https://github.com/PatrickAlphaC/ethers-simple-storage
+git clone https://github.com/Tonashiro/blockchain-solidity-course.git
 cd ethers-simple-storage
 ```
 
@@ -34,19 +32,11 @@ Then install dependencies
 yarn
 ```
 
-> Note: You'll notice in our `package.json` we are using `"solc": "0.8.7-fixed"`. Usually, you'll just be able to do `"solc": "0.8.7"` to get a specific version, but there was a bit of an issue with that one... You'll find out why we use 0.8.7
-
-### Typescript
-
-If you like `typescript`, run `git checkout typescript` then run `yarn`
-
 ## Usage
 
 1. Run your ganache local chain, by hitting `quickstart` on your ganache application
 
-> Save the workspace. This way, next time you open ganache you can start the workspace you've created, otherwise you'll have to redo all the steps below.
-
-2. Copy the `RPC SERVER` sting in your ganache CLI, and place it into your `.env` file similar to what's in `.env.example`.
+2. Copy the `RPC SERVER` sting in your ganache CLI, and place it into your `.env` file.
 
 <img src="./img/ganache-http.png" alt="ganache" width="500"/>
 
