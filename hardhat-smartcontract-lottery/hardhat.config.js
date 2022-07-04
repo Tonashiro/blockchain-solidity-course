@@ -20,9 +20,9 @@ module.exports = {
   etherscan: {
     // yarn hardhat verify --network <NETWORK> <CONTRACT_ADDRESS> <CONSTRUCTOR_PARAMETERS>
     apiKey: {
-        rinkeby: ETHERSCAN_API_KEY,
+      rinkeby: ETHERSCAN_API_KEY,
     },
-},
+  },
   networks: {
     hardhat: {
       chainId: 31337,
@@ -33,6 +33,9 @@ module.exports = {
       blockConfirmations: 6,
       url: RINKEBY_RPC_URL,
       accounts: [PRIVATE_KEY],
+    },
+    localhost: {
+      chainId: 31337,
     },
   },
   gasReporter: {
@@ -53,5 +56,5 @@ module.exports = {
   },
   mocha: {
     timeout: 200000, // 500 seconds max for running tests
-},
+  },
 }
