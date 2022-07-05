@@ -21,6 +21,10 @@ yarn
 yarn dev
 ```
 
+# Deployed site
+
+https://spring-fire-0538.on.fleek.co/
+
 # Usage
 
 1. Run your local blockchain with the lottery code
